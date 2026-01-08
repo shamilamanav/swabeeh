@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Viewer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-100 min-h-screen p-4 md:p-10">
+
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-10">
+            <h1 class="text-3xl font-bold text-gray-800">Reference Images</h1>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Image 1: Al Huda -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+                <div class="p-4 border-b border-gray-100 bg-gray-50 flex justify-between items-center">
+                    <h2 class="font-semibold text-gray-700">AL HUDA</h2>
+                    <span class="text-xs bg-emerald-100 text-emerald-800 px-2 py-1 rounded">Book 1</span>
+                </div>
+                <div class="p-4 flex-1 bg-gray-200 flex items-center justify-center min-h-[400px]">
+                    <img src="https://res.cloudinary.com/dzmyxdpyb/image/upload/v1767846646/alhud_fcrdz6.jpg" 
+                         alt="Al Huda" 
+                         class="max-w-full max-h-[600px] object-contain shadow-sm rounded"
+                         onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'text-center p-8\'><i class=\'fa-solid fa-image text-gray-400 text-5xl mb-4\'></i><p class=\'text-gray-500 font-medium\'>Image not loaded.</p><p class=\'text-xs text-gray-400 mt-2\'>Ensure &quot;al huda.jpg&quot; is in the same folder as this file.</p></div>'">
+                </div>
+            </div>
+
+            <!-- Image 2: MLM Mockup -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+                <div class="p-4 border-b border-gray-100 bg-gray-50 flex justify-between items-center">
+                    <h2 class="font-semibold text-gray-700">KIREEDAM</h2>
+                    <span class="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded">Book 2</span>
+                </div>
+                <div class="p-4 flex-1 bg-gray-200 flex items-center justify-center min-h-[400px]">
+                    <img src="https://res.cloudinary.com/dzmyxdpyb/image/upload/v1767846646/mlmmocku_uv3wgo.jpg" 
+                         alt="MLM Mockup" 
+                         class="max-w-full max-h-[600px] object-contain shadow-sm rounded"
+                         onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'text-center p-8\'><i class=\'fa-solid fa-image text-gray-400 text-5xl mb-4\'></i><p class=\'text-gray-500 font-medium\'>Image not loaded.</p><p class=\'text-xs text-gray-400 mt-2\'>Ensure &quot;mlm mockup.jpg&quot; is in the same folder as this file.</p></div>'">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
